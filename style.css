@@ -44,19 +44,13 @@
     width: 100vw;
   }
 
-  .card--md {
-    width: 49%;
-  }
-
+  .card--md,
   .card--sm {
     width: 49%;
   }
 
+  .card--lg,
   .card--wide {
-    width: 100%;
-  }
-
-  .card--lg {
     width: 100%;
   }
 
@@ -85,21 +79,13 @@
     width: 100vw;
   }
 
-  .card--md {
-    width: 49%;
-  }
-
+  .card--md,
   .card--sm {
     width: 49%;
   }
-  .card--wide {
-    width: 100%;
-  }
 
-  .card--lg {
-    width: 100%;
-  }
-
+  .card--wide,
+  .card--lg,
   .card--scroll {
     width: 100%;
   }
@@ -144,10 +130,7 @@
     width: 49%;
   }
 
-  .card--lg {
-    width: 100%;
-  }
-
+  .card--lg,
   .card--scroll {
     width: 100%;
   }
