@@ -1,1 +1,169 @@
 /*------------Tady piš svoje stylování --------------*/
+.date {
+  position: relative;
+}
+
+.date__busy {
+  position: absolute;
+  top: 10px;
+}
+
+.photos {
+  overflow-x: scroll;
+}
+
+@media (max-width: 360px) {
+  nav.social-media {
+    width: 50%;
+  }
+
+  .newsletter__image {
+    display: none;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 575px) {
+  nav.social-media {
+    width: 40%;
+  }
+
+  .newsletter__image {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  nav.social-media {
+    width: 30%;
+  }
+
+  .dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100vw;
+  }
+
+  .card--md {
+    width: 49%;
+  }
+
+  .card--sm {
+    width: 49%;
+  }
+
+  .card--wide {
+    width: 100%;
+  }
+
+  .card--lg {
+    width: 100%;
+  }
+
+  .news {
+    width: 100vw;
+  }
+
+  .card--scroll {
+    width: 100%;
+  }
+
+  .newsletter__article {
+    display: flex;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  nav.social-media {
+    width: 20%;
+  }
+
+  .dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100vw;
+  }
+
+  .card--md {
+    width: 49%;
+  }
+
+  .card--sm {
+    width: 49%;
+  }
+  .card--wide {
+    width: 100%;
+  }
+
+  .card--lg {
+    width: 100%;
+  }
+
+  .card--scroll {
+    width: 100%;
+  }
+
+  .news {
+    width: 100vw;
+  }
+
+  .newsletter {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .newsletter__article {
+    display: flex;
+    width: 49%;
+  }
+}
+
+@media (min-width: 1200px) {
+  nav.social-media {
+    width: 15%;
+  }
+
+  .dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: space-between;
+  }
+
+  .card--md {
+    width: 32%;
+  }
+
+  #calendarTop {
+    order: -1;
+    width: 32%;
+  }
+
+  .card--sm {
+    width: 49%;
+  }
+
+  .card--lg {
+    width: 100%;
+  }
+
+  .card--scroll {
+    width: 100%;
+  }
+
+  .news {
+    width: 100vw;
+  }
+
+  .newsletter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .newsletter__article {
+    display: flex;
+    width: 32%;
+  }
+}
